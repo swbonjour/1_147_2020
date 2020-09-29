@@ -1,0 +1,10 @@
+#include <iostream>
+int main() 
+{
+	std::cout << "Vvedite 4 chisla";
+	float a, b, c, d;
+	std::cin >> a >> b >> c >> d;
+	float aver = (a + b + c + d) / 4;
+	std::cout << "Srednee arifmeticheskoe: " << aver;
+	std::cin >> d;
+}
